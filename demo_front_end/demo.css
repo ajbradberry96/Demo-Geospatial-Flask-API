@@ -1,0 +1,42 @@
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+
+#error {
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#incident-list {
+    height: 500px;
+    margin-left: 0;
+    margin-right: 10px;
+    padding-left: 0;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#map {
+    width: 80%;
+    height: 100%;
+    float: right
+}
+
+#interaction {
+    width: 20%; 
+    height: 100%; 
+    float: left
+}

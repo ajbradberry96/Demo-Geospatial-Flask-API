@@ -1,0 +1,7 @@
+{
+  "DB_HOST": "urban-sdk.cdhmqbiws32w.us-east-2.rds.amazonaws.com",
+  "DB_PORT": 5432,
+  "DB_USER": "api",
+  "DB_PASS": "z2@6Z8<qjqL.:E`b",
+  "DB_NAME": "urbansdk"
+}

@@ -14,7 +14,7 @@ You can run the demo front end by opening ./demo_front_end/demo.html in a web br
 
 # Example RestAPI
 
-Frameworks: Flask or Tornado
+Frameworks: Flask
 Database: Postgres with PostGIS extension
 
 Project Structure
@@ -23,10 +23,8 @@ Project Structure
   - requirments.txt
   - /project (for everything else)
 
-Data: data.zip
-Using the provided data create a rest API that allows the user to query incidents by county and datetime
+A rest API that allows the user to query incidents by county and datetime
 
-Extra Point:
-Create a front end display to show the incidents using mapbox https://www.mapbox.com/
-Docker File to build project in a container
+A demo front end display to show the incidents using mapbox https://www.mapbox.com/ is found in the demo_from_end folder.
+Docker File to build project in a container, Dockerfile in API folder
 
